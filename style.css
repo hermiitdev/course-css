@@ -1,11 +1,20 @@
 body {
-  margin: 0;
   background-color: black;
 }
+section {
+  border: 5px solid red;
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  position: relative;
+}
+
 .container {
+  color: black;
   width: 100px;
   height: 100px;
-  color: white;
-  background: blue;
-  padding: 3px;
+  background: blueviolet;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
